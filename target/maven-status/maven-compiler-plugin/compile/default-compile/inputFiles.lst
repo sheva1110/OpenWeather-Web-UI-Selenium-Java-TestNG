@@ -1,0 +1,12 @@
+/Users/lap01441/OpenWeather-Web-UI-Selenium-Java-TestNG/src/main/java/com/example/page/BasePage.java
+/Users/lap01441/OpenWeather-Web-UI-Selenium-Java-TestNG/src/main/java/com/example/selenium/WaitElement.java
+/Users/lap01441/OpenWeather-Web-UI-Selenium-Java-TestNG/src/main/java/com/example/selenium/SeleniumUtils.java
+/Users/lap01441/OpenWeather-Web-UI-Selenium-Java-TestNG/src/main/java/com/example/driver/DriverFactory.java
+/Users/lap01441/OpenWeather-Web-UI-Selenium-Java-TestNG/src/main/java/com/example/page/SearchPage.java
+/Users/lap01441/OpenWeather-Web-UI-Selenium-Java-TestNG/src/main/java/com/example/driver/ChromeLocalDriverFactory.java
+/Users/lap01441/OpenWeather-Web-UI-Selenium-Java-TestNG/src/main/java/com/example/driver/ChromeOptionsFactory.java
+/Users/lap01441/OpenWeather-Web-UI-Selenium-Java-TestNG/src/main/java/com/example/utils/BaseTest.java
+/Users/lap01441/OpenWeather-Web-UI-Selenium-Java-TestNG/src/main/java/com/example/utils/PropertyLoader.java
+/Users/lap01441/OpenWeather-Web-UI-Selenium-Java-TestNG/src/main/java/com/example/report/ReportListener.java
+/Users/lap01441/OpenWeather-Web-UI-Selenium-Java-TestNG/src/main/java/com/example/exception/NoPropertiesException.java
+/Users/lap01441/OpenWeather-Web-UI-Selenium-Java-TestNG/src/main/java/com/example/page/SearchResultPage.java
