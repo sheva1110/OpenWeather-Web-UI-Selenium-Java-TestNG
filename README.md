@@ -12,6 +12,9 @@
 ---
 
 ## Installation
+```
+Install JDK 11.x
+Install Maven
 ---
 
 ### Execution
