@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.example.SearchWeatherTest" time="21.98" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="com.example.SearchWeatherTest" time="40.928" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.12+7"/>
@@ -64,5 +64,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.example.SearchWeatherTest" name="testSearchWeather" time="21.98"/>
+  <testcase classname="com.example.SearchWeatherTest" name="testSearchWeather" time="19.955"/>
+  <testcase classname="com.example.SearchWeatherTest" name="testSearchWeather" time="20.973"/>
 </testsuite>

@@ -31,7 +31,7 @@ public abstract class BaseTest {
         driver = new DriverFactory().createInstance();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get(returnConfigValue("url"));
+        driver.get(returnConfigValue("url"));       
         searchPage = new SearchPage(driver);
         searchResultPage = new SearchResultPage(driver);
     }

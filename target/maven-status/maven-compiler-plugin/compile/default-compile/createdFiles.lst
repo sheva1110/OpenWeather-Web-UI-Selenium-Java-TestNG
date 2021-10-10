@@ -10,3 +10,4 @@ com/example/driver/ChromeLocalDriverFactory.class
 com/example/driver/DriverFactory.class
 com/example/utils/BaseTest.class
 com/example/report/ReportListener.class
+com/example/utils/ExcelReader.class

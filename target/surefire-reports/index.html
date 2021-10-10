@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-com_example_SearchWeatherTest">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-com_example_SearchWeatherTest" title="com.example.SearchWeatherTest" class="method navigator-link" hash-for-method="testSearchWeather">testSearchWeather</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-com_example_SearchWeatherTest" title="com.example.SearchWeatherTest" class="method navigator-link" hash-for-method="testSearchWeather(London)">testSearchWeather(London)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-com_example_SearchWeatherTest" title="com.example.SearchWeatherTest" class="method navigator-link" hash-for-method="testSearchWeather(Ha Noi)">testSearchWeather(Ha Noi)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-com_example_SearchWeatherTest -->
@@ -125,9 +130,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testSearchWeather">
-                  </a> <!-- testSearchWeather -->
+                  <a name="testSearchWeather(London)">
+                  </a> <!-- testSearchWeather(London) -->
                   <span class="method-name">testSearchWeather</span>
+                  <span class="parameters">(London)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchWeather(Ha Noi)">
+                  </a> <!-- testSearchWeather(Ha Noi) -->
+                  <span class="method-name">testSearchWeather</span>
+                  <span class="parameters">(Ha Noi)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -183,16 +197,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testSearchWeather')
 data.setCell(0, 2, 'com.example.SearchWeatherTest')
-data.setCell(0, 3, 21578);
+data.setCell(0, 3, 20667);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSearchWeather')
+data.setCell(1, 2, 'com.example.SearchWeatherTest')
+data.setCell(1, 3, 19632);
 window.suiteTableData['com_example_SearchWeatherTest']= { tableData: data, tableDiv: 'times-div-com_example_SearchWeatherTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
               <div id="times-div-com_example_SearchWeatherTest">
               </div> <!-- times-div-com_example_SearchWeatherTest -->
             </div> <!-- times-div -->
@@ -224,12 +242,24 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testSearchWeather</span>
-                <span class="method-start">7173 ms</span>
+                <span class="method-name">testSearchWeather(Ha Noi)</span>
+                <span class="method-start">8698 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">postCondition</span>
-                <span class="method-start">29121 ms</span>
+                <span class="method-start">28658 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">preCondition</span>
+                <span class="method-start">28753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchWeather(London)</span>
+                <span class="method-start">34400 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">postCondition</span>
+                <span class="method-start">55373 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
