@@ -47,7 +47,6 @@ Install Maven
 * *[testng](https://testng.org/)* 
 * *[extentreports](http://www.extentreports.com/)*
 * *[webdrivermanager](https://github.com/bonigarcia/webdrivermanager)* 
-* *[lombok](https://projectlombok.org/)*
 
 ---
 
@@ -74,4 +73,3 @@ Install Maven
 //         | | :  `- \`.;`\ _ /`;.`/ - ` : | |
 //         \  \ `_.   \_ __\ /__ _/   .-` /  /
 //     =====`-.____`.___ \_____/___.-`___.-'=====
-//                     Tâm linh không đùa được đâu
