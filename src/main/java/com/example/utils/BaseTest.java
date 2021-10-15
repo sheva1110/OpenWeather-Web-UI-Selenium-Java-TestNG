@@ -3,7 +3,7 @@ package com.example.utils;
 import java.io.IOException;
 
 import com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter;
-import com.example.driver.DriverFactory;
+// import com.example.driver.DriverFactory;
 import com.example.page.SearchPage;
 import com.example.page.SearchResultPage;
 import org.openqa.selenium.WebDriver;
@@ -17,7 +17,7 @@ import com.example.report.ReportListener;
 import java.net.URL;
 import org.openqa.selenium.Capabilities;
 import com.example.config.SuiteConfiguration;
-import static com.example.utils.PropertyLoader.returnConfigValue;
+// import static com.example.utils.PropertyLoader.returnConfigValue;
 
 import java.util.concurrent.TimeUnit;
 

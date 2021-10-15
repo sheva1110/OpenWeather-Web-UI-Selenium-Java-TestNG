@@ -20,8 +20,13 @@ Install Maven
 > Start hub and node of selenium grid
 
 ```
-	$ sh run_mac.sh
+1. Start Grid
+`java -jar selenium-server-standalone-<version>.jar -role hub`
+
+2. Start Node
+`java -jar selenium-server-standalone-<version>.jar -role node  -hub http://localhost:4444/grid/register`
 ```
+
 > Execute the command to run all tests in the project. Default browser is Chrome. Default environment is PRODUCTION.
 
 ```
@@ -33,7 +38,7 @@ Install Maven
 	$ mvn clean test -Dtest=SearchWeatherTest
 ```
 
-> Execute the command to run on specific browser or environment
+> Execute the command to run on specific browser or environment (ex: run on browser Firefox, environment is QA)
 
 ```
 	$ mvn clean -P firefox,qa test
