@@ -13,6 +13,8 @@
 ```
 Install JDK 11.x
 Install Maven
+```
+
 ---
 
 ## Execution:
@@ -25,7 +27,7 @@ Install Maven
 
 	2. Start Node
 	`java -jar selenium-server-standalone-<version>.jar -role node  -hub http://localhost:4444/grid/register`
-	```
+```
 
 > Execute the command to run all tests in the project. Default browser is Chrome. Default environment is PRODUCTION.
 
