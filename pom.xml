@@ -31,6 +31,57 @@
             </plugin>
         </plugins>
     </build>
+      <!-- profiles -->
+  <profiles>
+    <!-- browsers -->
+    <profile>
+      <id>firefox</id>
+      <properties>
+        <capabilities>/firefox.capabilities</capabilities>
+      </properties>
+    </profile>
+    <profile>
+      <id>chrome</id>
+      <properties>
+        <capabilities>/chrome.capabilities</capabilities>
+    </properties>
+        <activation>
+            <activeByDefault>true</activeByDefault>
+        </activation>
+    </profile>
+    <!-- environments -->
+    <profile>
+        <id>prod</id>
+        <properties>
+            <site.url>https://openweathermap.org/</site.url>
+        </properties>
+        <activation>
+            <activeByDefault>true</activeByDefault>
+        </activation>
+    </profile>
+    <profile>
+        <id>qa</id>
+        <properties>
+            <site.url>https://openweathermap-qa.org/</site.url>
+        </properties>
+    </profile>
+    <profile>
+        <id>stg</id>
+        <properties>
+            <site.url>https://openweathermap-stg.org/</site.url>
+        </properties>
+    </profile>
+    <!-- grid -->
+    <profile>
+    <id>grid</id>
+    <properties>
+        <grid.url>http://localhost:4444/wd/hub/</grid.url>
+    </properties>
+    <activation>
+        <activeByDefault>true</activeByDefault>
+    </activation>
+    </profile>
+</profiles>
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -68,6 +119,11 @@
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>${webdrivermanager.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ru.stqa.selenium</groupId>
+            <artifactId>webdriver-factory</artifactId>
+            <version>4.1</version>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>

@@ -6,8 +6,6 @@
 - [Patterns](#patterns)
 - [Dependencies](#dependencies)
 - [Reports](#reports)
-- [Contributing](#contributing)
-- [Team](#team)
 
 ---
 
@@ -17,10 +15,14 @@ Install JDK 11.x
 Install Maven
 ---
 
-### Execution
+## Execution:
+
+> Start hub and node of selenium grid
 
 ```
-> Execute the command to run all tests in the project
+	$ sh run_mac.sh
+```
+> Execute the command to run all tests in the project. Default browser is Chrome. Default environment is PRODUCTION.
 
 ```
 	$ mvn clean test
@@ -30,7 +32,14 @@ Install Maven
 ```
 	$ mvn clean test -Dtest=SearchWeatherTest
 ```
+
+> Execute the command to run on specific browser or environment
+
+```
+	$ mvn clean -P firefox,qa test
+```
 ---
+
 ## Technologies:
 - Selenium WebDriver
 - Java
