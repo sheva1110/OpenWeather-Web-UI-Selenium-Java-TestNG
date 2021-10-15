@@ -67,7 +67,7 @@ Install Maven
 ---
 
 ## Reports
-* To view report of test, access the file: */target/report/test_execution.html*
+* To view report of test, access the file: */src/report/test_execution.html*
 
 ---
 
